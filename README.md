@@ -199,7 +199,7 @@ a2          # map (0x00..0x17 pairs of data items follow) (len 2)
 
 #### bzzr1
 
-```json
+```js
 {
   ...
   "metadata": {
