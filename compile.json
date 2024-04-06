@@ -1,0 +1,27 @@
+{
+  "language": "Solidity",
+
+  "sources": {
+    "Empty.sol": {
+      "urls": ["./Empty.sol"]
+    }
+  },
+
+  "settings": {
+    "optimizer": {
+      "enabled": true,
+      "runs": 200
+    },
+    "evmVersion": "cancun",
+    "outputSelection": {
+      "*": {
+        "*": ["evm.bytecode"]
+      }
+    },
+    "metadata": {
+      "appendCBOR": true,
+      "useLiteralContent": true,
+      "bytecodeHash": "bzzr1"
+    }
+  }
+}
